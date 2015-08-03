@@ -1,0 +1,226 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	margin-top:15px;
+	font-family: 'Lato' ,Arial;
+	font-weight:300;
+	font-size:14px;
+	color: #4c4c4c;
+	background-color: #fffffb;
+}
+
+ul {
+    list-style:none;
+    padding-left:0px;
+    line-height:20px;
+
+}
+
+h1 {
+	font-size:1.8em;
+	font-weight:400;
+	line-height: 35px;
+	margin-left:-2px;
+
+	
+}
+
+#profile a {
+	text-decoration:none; 
+}
+
+h2 {
+	font-size:1.2em;
+	font-weight:400;	
+	line-height: 15px;
+
+}
+
+h3 {
+	font-size:1em;
+	font-weight:300;
+	line-height: 15px;
+	max-width:100px;
+}
+
+a {
+	color:inherit;
+}
+
+
+
+
+/* CLASSES */
+
+.main-container {
+	margin: 0px auto 0px auto; 
+	max-width:1200px;
+	position:relative;
+
+}
+
+.left-rail {
+	width: 19%; 
+	min-width:120px;
+	float: left;
+	margin-top:-15px;
+	position:relative;
+	margin-left:15px;
+	min-height: 400px; 
+
+}
+
+.main-rail {
+
+	float: left;
+	position:absolute;
+	margin-left:21%;
+
+}
+
+
+
+.title-container {
+	max-width:130px;
+	padding-bottom:30px;
+
+}
+
+
+.bottom-wrapper {
+	position:absolute;
+	bottom:0px;
+}
+
+
+
+.footer {
+	font-size:0.9em;
+}
+
+
+.profile-footer{
+	text-align:right;
+}
+
+a.clicker {
+	text-decoration:none; 
+	font-weight:400;
+}
+
+a.clicker:hover {
+	text-decoration:underline;
+}
+
+.indiv-image-wrapper {
+	position:relative;
+}
+
+
+.content h3 {
+	margin-bottom:-12px;
+
+}
+
+
+.content {
+	margin-left:10px;
+	font-size:13px;
+}
+
+.content ul {
+	line-height:24px;
+}
+
+.imgwrap {
+  position: relative; 
+  overflow:hidden;
+  height: 250px;
+  width: 250px;
+  margin: 5px 5px;
+  float:left;
+  background: #fff;
+}
+
+.imgwrap:hover {
+  opacity: 0.7;
+  -webkit-transition:  opacity 0.5s;
+  transition:  opacity 0.5s; 
+}
+
+
+.imgwrap img {
+	height:250px;
+	width:250px; 
+}
+
+
+.gallery-footer {
+	width:773px;
+	position:relative;
+	text-align:right;
+	float:left;
+	padding-right:1%; 
+}
+
+/* IDs */
+
+
+#mobile-nav {
+	display:none;
+}
+
+
+#nav li a {
+	text-decoration:none; 
+	line-height:17px;
+}
+
+#nav li a:hover {
+	text-decoration:underline; 
+}
+
+
+#email {
+	display:none;
+}
+
+#arrow {
+	font-size:0.6em;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width:50px) and (max-width:1000px) {
+	 .footer {
+		 width:510px;
+
+	 }
+ }
+ 
+@media only screen and (min-width:50px) and (max-width:560px) {
+	 .footer {
+		 width:250px;
+		 text-align:left;
+	 }
+	 .footer p{
+	 	max-width: 160px;
+	 }
+ }
+ 
+
+@media only screen and (min-width:50px) and (max-width:340px) {
+	h2 {
+	max-width: 100px;
+	}
+	
+	.content h2 {
+	max-width: 250px;
+	}
+		
+	.index-footer p{
+	max-width: 90px;
+	 }
+}
+
